@@ -13,7 +13,7 @@ PROVIDERS = {
     "Groq (free tier)": {"base": "https://api.groq.com/openai/v1", "target": "llama-3.1-8b-instant",
                          "strong": "llama-3.3-70b-versatile", "help": "Free key: console.groq.com/keys"},
     "Google Gemini": {"base": "https://generativelanguage.googleapis.com/v1beta/openai",
-                      "target": "gemini-2.5-flash-lite", "strong": "gemini-2.5-flash-lite",
+                      "target": "gemini-2.5-flash", "strong": "gemini-2.5-flash",
                       "help": "Free key: aistudio.google.com/apikey (edit model names under Advanced if you get 'model not found')"},
     "OpenRouter": {"base": "https://openrouter.ai/api/v1", "target": "meta-llama/llama-3.1-8b-instruct",
                    "strong": "meta-llama/llama-3.3-70b-instruct", "help": "Key: openrouter.ai/keys"},
